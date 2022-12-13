@@ -1,0 +1,130 @@
+.container {
+	width: 100%;
+}
+
+.content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: 5rem;
+	height: auto;
+}
+
+.searchCart {
+	display: flex;
+	padding-bottom: 0.8rem;
+}
+
+.cart {
+	width: 3.3rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0.5rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: white;
+	border-radius: 0.2rem;
+	padding: 0.2rem 0.3rem;
+	cursor: pointer;
+}
+
+.count {
+	font-weight: 500;
+}
+
+.search {
+	height: 1.8rem;
+	display: flex;
+}
+
+.input {
+	width: 80%;
+	border: none;
+	outline: none;
+	border-top-left-radius: 0.2rem;
+	border-bottom-left-radius: 0.2rem;
+	padding-inline: 0.7rem;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3rem;
+	background: var(--prezko-color);
+	border: 3px solid white;
+	border-top-right-radius: 0.2rem;
+	border-bottom-right-radius: 0.2rem;
+	cursor: pointer;
+}
+
+/* .container {
+	background-color: var(--prezko-color);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+  padding-block: 0.8rem;
+}
+
+.content {
+	min-width: var(--max-width);
+	max-width: var(--max-width);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: 120px;
+  height: auto;
+}
+
+.search {
+	height: 2.3rem;
+	display: flex;
+	width: 50rem;
+}
+
+.input {
+	width: 100%;
+	border: none;
+	outline: none;
+	border-top-left-radius: 0.2rem;
+	border-bottom-left-radius: 0.2rem;
+	padding-inline: 1rem;
+}
+
+.button {
+	width: 7rem;
+	background: var(--prezko-color);
+	border: 3px solid white;
+	border-top-right-radius: 0.2rem;
+	border-bottom-right-radius: 0.2rem;
+	cursor: pointer;
+}
+
+.cart {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	border-radius: 0.3rem;
+	padding: 0.3rem 0.8rem;
+  cursor: pointer;
+}
+
+.count {
+	font-weight: 500;
+}
+
+.cartIcon {
+	font-size: 1.5rem;
+	margin-left: 0.5rem;
+} */

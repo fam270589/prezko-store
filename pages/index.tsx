@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
+import Navbar from "../components/Navbar/Navbar";
+import Products from "../components/Products/Products";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -11,7 +12,11 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<main className={styles.main}>Prezko Store</main>
+			<header className={styles.header}>
+				<Navbar />
+			</header>
+
+			{/* <main className={styles.main}><Products /></main> */}
 
 			<footer className={styles.footer}></footer>
 		</div>
