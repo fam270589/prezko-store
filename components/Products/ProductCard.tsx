@@ -16,6 +16,7 @@ const ProductCard = (props: Props) => {
 	return (
 		<div className={styles.container}>
 			<Image
+				priority
 				src={props.image}
 				alt="product"
 				width={200}

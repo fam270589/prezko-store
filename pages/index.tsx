@@ -16,9 +16,9 @@ export default function Home() {
 				<Navbar />
 			</header>
 
-			{/* <main className={styles.main}><Products /></main> */}
+			<main className={styles.main}><Products /></main>
 
-			<footer className={styles.footer}></footer>
+			<footer className={styles.footer}>Prezko Store</footer>
 		</div>
 	);
 }

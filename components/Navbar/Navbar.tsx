@@ -14,6 +14,7 @@ const Navbar = (props: Props) => {
 		<div className={styles.container}>
 			<div className={styles.content}>
 				<Image
+					priority
 					src={logo}
 					alt="logo"
 					width={120}

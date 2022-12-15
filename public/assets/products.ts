@@ -24,12 +24,6 @@ import tomat from "./tomat.jpeg";
 
 export const products = [
 	{
-		image: babi,
-		name: "Daging Babi",
-		price: "10.000",
-		type: "Lauk",
-	},
-	{
 		image: bawangmerah,
 		name: "Bawang Merah",
 		price: "10.000",
@@ -52,6 +46,12 @@ export const products = [
 		name: "Beras",
 		price: "10.000",
 		type: "Sembako",
+	},
+	{
+		image: babi,
+		name: "Daging Babi",
+		price: "10.000",
+		type: "Lauk",
 	},
 	{
 		image: cafu,
